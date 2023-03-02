@@ -1,0 +1,338 @@
+// Elemente und Universalselektor
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	background: #145D05;
+	color: white;
+}
+h1, h2, h3, h4, h5 {
+	display: block;
+	text-align: center;
+	margin: 15px;
+	padding: 5px;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: white;
+	background: #6C0610;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 85px;
+	height: 20px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+form {
+	background: white;
+	color: #145D05;
+	margin: 5px;
+	padding: 10px;
+	border-style: inset;
+	border-width: 3pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+textarea {
+	margin: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+input {
+	margin: 5px;
+	padding: 2px;
+	border-style: solid;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+// Klassen
+
+.hlink {
+
+	text-decoration: none;
+	display: inline-block;
+	height: 35px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+.spezielleUeber {
+	background: white;
+	color: #145D05;
+	font-size: 110%;
+}
+.reg_label {
+	display: inline-block;
+	width: 200px;
+}
+a:hover {
+	color: #145D05;
+	background: white;
+}
+.hlink:hover {
+	color: white;
+	background: #6C0610;
+}
+.thumb {
+	width: 120px;
+	height: 160px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+.fehlermeldung {
+	color: #6C0610;
+}
+
+.captcha {
+	width: 200px;
+	margin: 10px;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+.detailbildcontainer {
+	height: 250px;
+	width: 250px;
+	margin: 3px;
+}
+.detailbild {
+	max-height: 320px;
+	max-width: 320px;
+	padding: 3px;
+}
+.vorschauinfos {
+	color: #145D05;
+	background: white;
+	margin: 5px;
+	padding: 15px;
+	width: 650px;
+	max-height: 150px;
+	overflow: scroll;
+	border-style: inline;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.hlink_klein {
+
+	text-decoration: none;
+	height: 18px;
+	width: 110px;
+	text-align: center;
+	margin: 2px;
+	padding: 2px;
+	font-size: 12px;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+}
+.hlink_nix {
+	color: white;
+	background: #145D05;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 85px;
+	height: auto;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	text-align: left;
+	margin: 2px;
+	padding: 2px;
+	font-size: 0px;
+	border-style: none;
+	border-width: 0pt;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-moz-box-shadow: 0px 0px 0px #888;
+	-webkit-box-shadow: 0px 0px 0px #888;
+	box-shadow: 0px 0px 0px #888;
+}
+.thumb_bild {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-style: dotted;
+	border-width: 1pt;
+	opacity: 0.9;
+	color: #888;
+}
+.thumb_bild:hover {
+	border-style: groove;
+	color: white;
+	opacity: 1;
+	-moz-box-shadow: 2px 2px 3px #888;
+	-webkit-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+}
+.rezepttab {
+
+	width: 950px;
+	margin: 5px;
+}
+
+
+// IDs
+#detailbereich {
+	height: 550px;
+	width: 98%;
+	margin: auto;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+	overflow-x: scroll;
+}
+#vorschauber {
+	height: 300px;
+	width: 98%;
+	margin: auto;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 2px 3px #888;
+	-webkit-box-shadow: 5px 2px 3px #888;
+	box-shadow: 5px 2px 3px #888;
+	overflow-x: scroll;
+}
+#nav {
+	width: 1000px;
+	height: 40px;
+	margin: auto;
+	padding: 10px;
+}
+#content {
+	width: 1000px;
+	margin: auto;
+	padding: 20px;
+	border-style: groove;
+	border-width: 1pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#indextext {
+	text-align: justify;
+	background: white;
+	color: #145D05;
+	margin: 5px;
+	padding: 10px;
+	border-style: inset;
+	border-width: 3pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+}
+#meldung {
+	position: relative;
+	top: -200px;
+	margin: 0 auto;
+	opacity: 0.7;
+	visibility: hidden;
+	background: white;
+	color: #6C0610;
+	width: 450px;
+	min-height: 40px;
+	padding: 20px;
+	border-style: inset;
+	border-width: 3pt;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+}
+
+#rezeptformular {
+	width: 950px;
+	margin: 3px;
+}
+#detailinfo {
+	vertical-align: top;
+	padding: 5px;
+	margin: 20px;
+}
+
